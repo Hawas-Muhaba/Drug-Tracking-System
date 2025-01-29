@@ -1,0 +1,102 @@
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\drugTrackingSystem.csproj.AssemblyReference.cache
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\drugTrackingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\drugTrackingSystem.AssemblyInfoInputs.cache
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\drugTrackingSystem.AssemblyInfo.cs
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\drugTrackingSystem.csproj.CoreCompileInputs.cache
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\drugTrackingSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\appsettings.Development.json
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\appsettings.json
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\drugTrackingSystem.staticwebassets.endpoints.json
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\drugTrackingSystem.exe
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\drugTrackingSystem.deps.json
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\drugTrackingSystem.runtimeconfig.json
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\drugTrackingSystem.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\drugTrackingSystem.pdb
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\DnsClient.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Microsoft.OpenApi.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\MongoDB.Bson.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\MongoDB.Driver.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\SharpCompress.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Snappier.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\bin\Debug\net9.0\ZstdSharp.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\drugTrackingSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\scopedcss\bundle\drugTrackingSystem.styles.css
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\staticwebassets.build.json
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\staticwebassets.development.json
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\staticwebassets\msbuild.drugTrackingSystem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\staticwebassets\msbuild.drugTrackingSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\staticwebassets\msbuild.build.drugTrackingSystem.props
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.drugTrackingSystem.props
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.drugTrackingSystem.props
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\drugTrac.97C53737.Up2Date
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\drugTrackingSystem.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\refint\drugTrackingSystem.dll
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\drugTrackingSystem.pdb
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\drugTrackingSystem.genruntimeconfig.cache
+C:\Program Files\Phone\School_Semister\Self_Semester\Drug Tracking web Project\DrugTrackingWebApi\drugTrackingSystem\obj\Debug\net9.0\ref\drugTrackingSystem.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\appsettings.Development.json
+E:\Class\temp\drugSystem\bin\Debug\net9.0\appsettings.json
+E:\Class\temp\drugSystem\bin\Debug\net9.0\drugTrackingSystem.staticwebassets.endpoints.json
+E:\Class\temp\drugSystem\bin\Debug\net9.0\drugTrackingSystem.exe
+E:\Class\temp\drugSystem\bin\Debug\net9.0\drugTrackingSystem.deps.json
+E:\Class\temp\drugSystem\bin\Debug\net9.0\drugTrackingSystem.runtimeconfig.json
+E:\Class\temp\drugSystem\bin\Debug\net9.0\drugTrackingSystem.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\drugTrackingSystem.pdb
+E:\Class\temp\drugSystem\bin\Debug\net9.0\DnsClient.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Microsoft.AspNetCore.Razor.Language.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Microsoft.CodeAnalysis.Razor.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Microsoft.OpenApi.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\MongoDB.Bson.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\MongoDB.Driver.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Newtonsoft.Json.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Newtonsoft.Json.Bson.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\SharpCompress.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Snappier.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Class\temp\drugSystem\bin\Debug\net9.0\ZstdSharp.dll
+E:\Class\temp\drugSystem\obj\Debug\net9.0\drugTrackingSystem.csproj.AssemblyReference.cache
+E:\Class\temp\drugSystem\obj\Debug\net9.0\drugTrackingSystem.GeneratedMSBuildEditorConfig.editorconfig
+E:\Class\temp\drugSystem\obj\Debug\net9.0\drugTrackingSystem.AssemblyInfoInputs.cache
+E:\Class\temp\drugSystem\obj\Debug\net9.0\drugTrackingSystem.AssemblyInfo.cs
+E:\Class\temp\drugSystem\obj\Debug\net9.0\drugTrackingSystem.csproj.CoreCompileInputs.cache
+E:\Class\temp\drugSystem\obj\Debug\net9.0\drugTrackingSystem.MvcApplicationPartsAssemblyInfo.cs
+E:\Class\temp\drugSystem\obj\Debug\net9.0\drugTrackingSystem.MvcApplicationPartsAssemblyInfo.cache
+E:\Class\temp\drugSystem\obj\Debug\net9.0\scopedcss\bundle\drugTrackingSystem.styles.css
+E:\Class\temp\drugSystem\obj\Debug\net9.0\staticwebassets.build.json
+E:\Class\temp\drugSystem\obj\Debug\net9.0\staticwebassets.development.json
+E:\Class\temp\drugSystem\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+E:\Class\temp\drugSystem\obj\Debug\net9.0\staticwebassets\msbuild.drugTrackingSystem.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Class\temp\drugSystem\obj\Debug\net9.0\staticwebassets\msbuild.drugTrackingSystem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\Class\temp\drugSystem\obj\Debug\net9.0\staticwebassets\msbuild.build.drugTrackingSystem.props
+E:\Class\temp\drugSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.drugTrackingSystem.props
+E:\Class\temp\drugSystem\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.drugTrackingSystem.props
+E:\Class\temp\drugSystem\obj\Debug\net9.0\staticwebassets.pack.json
+E:\Class\temp\drugSystem\obj\Debug\net9.0\drugTrac.97C53737.Up2Date
+E:\Class\temp\drugSystem\obj\Debug\net9.0\drugTrackingSystem.dll
+E:\Class\temp\drugSystem\obj\Debug\net9.0\refint\drugTrackingSystem.dll
+E:\Class\temp\drugSystem\obj\Debug\net9.0\drugTrackingSystem.pdb
+E:\Class\temp\drugSystem\obj\Debug\net9.0\drugTrackingSystem.genruntimeconfig.cache
+E:\Class\temp\drugSystem\obj\Debug\net9.0\ref\drugTrackingSystem.dll
