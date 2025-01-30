@@ -1,24 +1,25 @@
 using MongoDB.Driver;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 public class DrugService
 {
-    private readonly IMongoCollection<Drug> _drugs;
+    private readonly IMongoCollection<Drug> _drugCollection;
 
-    public DrugService(IMongoDatabase database)
+    public DrugService(MongoDbContext context)
     {
-        _drugs = database.GetCollection<Drug>("Drugs");
+        _drugCollection = context.Drugs;
     }
 
-    public async Task<List<Drug>> GetAllAsync() => await _drugs.Find(d => true).ToListAsync();
+    public async Task<List<Drug>> GetDrugsAsync() => await _drugCollection.Find(_ => true).ToListAsync();
 
-    public async Task<Drug> GetByIdAsync(string id) => await _drugs.Find(d => d.Id == id).FirstOrDefaultAsync();
+    public async Task<List<Drug>> SearchDrugsAsync(string name) =>
+        await _drugCollection.Find(d => d.Name.ToLower().Contains(name.ToLower())).ToListAsync();
 
-    public async Task CreateAsync(Drug drug) => await _drugs.InsertOneAsync(drug);
+    public async Task CreateDrugAsync(Drug drug) => await _drugCollection.InsertOneAsync(drug);
 
-    public async Task UpdateAsync(string id, Drug updatedDrug) =>
-        await _drugs.ReplaceOneAsync(d => d.Id == id, updatedDrug);
+    public async Task<bool> DeleteDrugAsync(string id)
+    {
+        var result = await _drugCollection.DeleteOneAsync(d => d.Id == id);
+        return result.DeletedCount > 0;
+    }
 
-    public async Task DeleteAsync(string id) => await _drugs.DeleteOneAsync(d => d.Id == id);
 }
