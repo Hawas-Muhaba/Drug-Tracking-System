@@ -1,50 +1,116 @@
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using DrugSystem.Services;
+using DrugSystem.Models;
+using DrugSystem.DTOs;
+using MongoDB.Bson;
 
 [ApiController]
 [Route("api/[controller]")]
-public class DrugController : ControllerBase
+public class DrugsController : ControllerBase
 {
     private readonly DrugService _drugService;
 
-    public DrugController(DrugService drugService)
+    public DrugsController(DrugService drugService)
     {
         _drugService = drugService;
     }
 
-    [HttpGet]
-    public async Task<ActionResult<List<Drug>>> Get() => await _drugService.GetAllAsync();
+    // Validate ObjectId
+    private bool IsValidObjectId(string id) => ObjectId.TryParse(id, out _);
 
-    [HttpGet("{id}")]
-    public async Task<ActionResult<Drug>> Get(string id)
+    [HttpGet]
+    public async Task<IActionResult> GetDrugs(int pageNumber = 1, int pageSize = 10)
     {
-        var drug = await _drugService.GetByIdAsync(id);
-        return drug is not null ? Ok(drug) : NotFound();
+        var result = await _drugService.GetDrugsAsync(pageNumber, pageSize);
+        return Ok(result);
     }
 
+    [HttpGet("search")]
+    public async Task<IActionResult> SearchDrugs(string name) => Ok(await _drugService.SearchDrugsAsync(name));
+
     [HttpPost]
-    public async Task<IActionResult> Create(Drug drug)
+    public async Task<IActionResult> CreateDrug([FromBody] CreateDrugDto drugDto)
     {
-        await _drugService.CreateAsync(drug);
-        return CreatedAtAction(nameof(Get), new { id = drug.Id }, drug);
+        try
+        {
+            if (drugDto == null)
+            {
+                return BadRequest(new { Message = "Invalid data." });
+            }
+
+            var pharmacyExists = await _drugService.CheckPharmacyExistsAsync(drugDto.PharmacyId);
+            if (!pharmacyExists)
+            {
+                if (!ObjectId.TryParse(drugDto.PharmacyId, out _))
+                {
+                    return BadRequest(new { Message = "Invalid Pharmacy ID format." });
+                }
+
+                return NotFound(new { Message = "Pharmacy not found." });
+            }
+        
+            var drug = await _drugService.CreateDrugAsync(drugDto);
+            return CreatedAtAction(nameof(GetDrugs), new { id = drug.Id }, drug);
+        }
+         catch (ArgumentException ex)
+        {
+            return BadRequest(new { message = ex.Message });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { message = "An unexpected error occurred.", details = ex.Message });
+        }
     }
 
     [HttpPut("{id}")]
-    public async Task<IActionResult> Update(string id, Drug drug)
+    public async Task<IActionResult> EditDrug(string id, [FromBody] EditDrugDto drugDto)
     {
-        var existingDrug = await _drugService.GetByIdAsync(id);
-        if (existingDrug is null) return NotFound();
-        await _drugService.UpdateAsync(id, drug);
+        try
+        {
+            var updatedDrug = await _drugService.EditDrugAsync(id, drugDto);
+            return Ok(updatedDrug);
+        }
+        catch (KeyNotFoundException ex)
+        {
+            return NotFound(new { message = ex.Message });
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(new { message = ex.Message });
+        }
+        catch (Exception ex)
+        {
+            return StatusCode(500, new { message = "An unexpected error occurred", error = ex.Message });
+        }
+    }
+
+
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteDrug(string id)
+    {
+        if (!IsValidObjectId(id))
+        {
+            return BadRequest(new { Message = "Invalid ObjectId format." });
+        }
+
+        var deleted = await _drugService.DeleteDrugAsync(id);
+        if (!deleted) return NotFound();
         return NoContent();
     }
 
-    [HttpDelete("{id}")]
-    public async Task<IActionResult> Delete(string id)
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetDrug(string id)
     {
-        var drug = await _drugService.GetByIdAsync(id);
-        if (drug is null) return NotFound();
-        await _drugService.DeleteAsync(id);
-        return NoContent();
+        if (!IsValidObjectId(id))
+        {
+            return BadRequest(new { Message = "Invalid ObjectId format." });
+        }
+
+        var drug = await _drugService.GetDrugByIdAsync(id);
+        if (drug == null)
+        {
+            return NotFound(new { Message = "Drug not found" });
+        }
+        return Ok(drug);
     }
 }

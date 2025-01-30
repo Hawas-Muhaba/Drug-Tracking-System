@@ -1,9 +1,20 @@
+using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 
-public class Drug
+
+namespace DrugSystem.Models
 {
-     public Guid Id { get; set; } = Guid.NewGuid();
-    public required string Name { get; set; }
-    public required string PharmacyId { get; set; }
-    public required double Price { get; set; }
-    public required int Quantity { get; set; }
+
+    public class Drug
+    {
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string? Id { get; set; }
+        public required string Name { get; set; }
+        public required string PharmacyId { get; set; }
+        public required double Price { get; set; }
+        public required int Quantity { get; set; }
+    }
+
 }
+
