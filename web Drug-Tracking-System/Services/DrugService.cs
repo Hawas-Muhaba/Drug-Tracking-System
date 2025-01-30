@@ -21,4 +21,5 @@ public class DrugService
         var result = await _drugCollection.DeleteOneAsync(d => d.Id == id);
         return result.DeletedCount > 0;
     }
+
 }
