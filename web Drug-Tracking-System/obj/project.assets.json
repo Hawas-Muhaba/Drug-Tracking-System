@@ -482,24 +482,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shafqat Ali\\.nuget\\packages\\": {}
+    "C:\\Users\\Hawas Muhaba\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shafqat Ali\\OneDrive\\Desktop\\Drug-Tracking-System\\web Drug-Tracking-System\\web Drug-Tracking-System.csproj",
+      "projectUniqueName": "C:\\Program Files\\Phone\\School_Semister\\Self_Semester\\DrugTrackingWebApiElectiveAssignment\\Drug-Tracking-System2\\web Drug-Tracking-System\\web Drug-Tracking-System.csproj",
       "projectName": "web Drug-Tracking-System",
-      "projectPath": "C:\\Users\\shafqat Ali\\OneDrive\\Desktop\\Drug-Tracking-System\\web Drug-Tracking-System\\web Drug-Tracking-System.csproj",
-      "packagesPath": "C:\\Users\\shafqat Ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shafqat Ali\\OneDrive\\Desktop\\Drug-Tracking-System\\web Drug-Tracking-System\\obj\\",
+      "projectPath": "C:\\Program Files\\Phone\\School_Semister\\Self_Semester\\DrugTrackingWebApiElectiveAssignment\\Drug-Tracking-System2\\web Drug-Tracking-System\\web Drug-Tracking-System.csproj",
+      "packagesPath": "C:\\Users\\Hawas Muhaba\\.nuget\\packages\\",
+      "outputPath": "C:\\Program Files\\Phone\\School_Semister\\Self_Semester\\DrugTrackingWebApiElectiveAssignment\\Drug-Tracking-System2\\web Drug-Tracking-System\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\shafqat Ali\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Hawas Muhaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -517,7 +525,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -551,7 +560,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
